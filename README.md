@@ -1,1 +1,1 @@
-< img src="solidwork/ảnh.png" >
+<img src="solidwork/ảnh.png">
