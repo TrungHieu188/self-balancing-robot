@@ -4,5 +4,5 @@
 <img src="3.jpg">
 <h1> Video </h1>
 <a href="https://youtu.be/AAjWNhPKE2E">
-  <img src="solidwork/3.jpg" width="500px">
+  <img src="3.jpg" width="500px">
 </a>
