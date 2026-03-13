@@ -1,0 +1,89 @@
+Dependencies for Project 'xe2banh', Target 'xe2banh': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (..\Inc\mpu6050.h)(0x6985C79F)()
+F (.\mpu6050.c)(0x6985535A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IH:/KEILC/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ./objects/mpu6050.o -MD)
+I (..\Inc\mpu6050.h)(0x6985C79F)
+I (..\Inc\stm32f10x.h)(0x6877B972)
+I (..\Inc\core_cm3.h)(0x687FA742)
+I (H:\KEILC\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\Inc\system_stm32f10x.h)(0x6877B972)
+I (..\Inc\gpio.h)(0x689DD0A5)
+I (..\Inc\systick_delay.h)(0x6938EC0D)
+I (..\Inc\SysClock.h)(0x69B3DC7D)
+F (..\Inc\systick_delay.h)(0x6938EC0D)()
+F (.\systick_delay.c)(0x6938EECC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IH:/KEILC/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ./objects/systick_delay.o -MD)
+I (..\Inc\systick_delay.h)(0x6938EC0D)
+I (..\Inc\stm32f10x.h)(0x6877B972)
+I (..\Inc\core_cm3.h)(0x687FA742)
+I (H:\KEILC\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\Inc\system_stm32f10x.h)(0x6877B972)
+F (.\main.c)(0x69B3DC7D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IH:/KEILC/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ./objects/main.o -MD)
+I (..\Inc\main.h)(0x6985D6FA)
+I (..\Inc\SysClock.h)(0x69B3DC7D)
+I (..\Inc\stm32f10x.h)(0x6877B972)
+I (..\Inc\core_cm3.h)(0x687FA742)
+I (H:\KEILC\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\Inc\system_stm32f10x.h)(0x6877B972)
+I (..\Inc\gpio.h)(0x689DD0A5)
+I (..\Inc\mpu6050.h)(0x6985C79F)
+I (..\Inc\systick_delay.h)(0x6938EC0D)
+I (..\Inc\motor.h)(0x6985CFFA)
+I (..\Inc\usbttl.h)(0x69856CAF)
+I (H:\KEILC\ARM\ARMCLANG\include\stdio.h)(0x5ED619F4)
+I (..\Inc\PID.h)(0x69B3DC7B)
+I (H:\KEILC\ARM\ARMCLANG\include\math.h)(0x5ED619F4)
+F (.\motor.c)(0x6985D04E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IH:/KEILC/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ./objects/motor.o -MD)
+I (..\Inc\motor.h)(0x6985CFFA)
+I (..\Inc\stm32f10x.h)(0x6877B972)
+I (..\Inc\core_cm3.h)(0x687FA742)
+I (H:\KEILC\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\Inc\system_stm32f10x.h)(0x6877B972)
+I (..\Inc\gpio.h)(0x689DD0A5)
+F (..\Inc\usbttl.h)(0x69856CAF)()
+F (.\usbttl.c)(0x69B3B886)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IH:/KEILC/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ./objects/usbttl.o -MD)
+I (..\Inc\usbttl.h)(0x69856CAF)
+I (..\Inc\stm32f10x.h)(0x6877B972)
+I (..\Inc\core_cm3.h)(0x687FA742)
+I (H:\KEILC\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\Inc\system_stm32f10x.h)(0x6877B972)
+I (..\Inc\gpio.h)(0x689DD0A5)
+I (H:\KEILC\ARM\ARMCLANG\include\stdio.h)(0x5ED619F4)
+I (..\Inc\systick_delay.h)(0x6938EC0D)
+F (..\Inc\PID.h)(0x69B3DC7B)()
+F (.\PID.c)(0x69B3DC7D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IH:/KEILC/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ./objects/pid.o -MD)
+I (..\Inc\PID.h)(0x69B3DC7B)
+I (..\Inc\gpio.h)(0x689DD0A5)
+I (..\Inc\stm32f10x.h)(0x6877B972)
+I (..\Inc\core_cm3.h)(0x687FA742)
+I (H:\KEILC\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\Inc\system_stm32f10x.h)(0x6877B972)
+I (..\Inc\mpu6050.h)(0x6985C79F)
+I (..\Inc\systick_delay.h)(0x6938EC0D)
+I (..\Inc\SysClock.h)(0x69B3DC7D)
+I (H:\KEILC\ARM\ARMCLANG\include\math.h)(0x5ED619F4)
+I (..\Inc\usbttl.h)(0x69856CAF)
+I (H:\KEILC\ARM\ARMCLANG\include\stdio.h)(0x5ED619F4)
+F (.\system_stm32f10x.c)(0x687FADBA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IH:/KEILC/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ./objects/system_stm32f10x.o -MD)
+I (..\Inc\stm32f10x.h)(0x6877B972)
+I (..\Inc\core_cm3.h)(0x687FA742)
+I (H:\KEILC\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\Inc\system_stm32f10x.h)(0x6877B972)
+F (..\Startup\startup_stm32f10x_md.s)(0x6877B972)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3 -I ../Inc-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IH:/KEILC/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 531" -Wa,armasm,--pd,"STM32F10X_MD SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (.\gpio.c)(0x692FE361)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IH:/KEILC/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ./objects/gpio.o -MD)
+I (..\Inc\gpio.h)(0x689DD0A5)
+I (..\Inc\stm32f10x.h)(0x6877B972)
+I (..\Inc\core_cm3.h)(0x687FA742)
+I (H:\KEILC\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\Inc\system_stm32f10x.h)(0x6877B972)
+F (.\stm32f10x_it.c)(0x687FA731)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IH:/KEILC/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ./objects/stm32f10x_it.o -MD)
+I (..\Inc\stm32f10x_it.h)(0x6877B97A)
+I (..\Inc\stm32f10x.h)(0x6877B972)
+I (..\Inc\core_cm3.h)(0x687FA742)
+I (H:\KEILC\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\Inc\system_stm32f10x.h)(0x6877B972)
+F (.\SysClock.c)(0x687DC86F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IH:/KEILC/ARM/CMSIS/Include-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ./objects/sysclock.o -MD)
+I (..\Inc\SysClock.h)(0x69B3DC7D)
+I (..\Inc\stm32f10x.h)(0x6877B972)
+I (..\Inc\core_cm3.h)(0x687FA742)
+I (H:\KEILC\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\Inc\system_stm32f10x.h)(0x6877B972)

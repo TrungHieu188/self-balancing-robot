@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\objects\mpu6050.o"
+".\objects\systick_delay.o"
+".\objects\main.o"
+".\objects\motor.o"
+".\objects\usbttl.o"
+".\objects\pid.o"
+".\objects\system_stm32f10x.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\gpio.o"
+".\objects\stm32f10x_it.o"
+".\objects\sysclock.o"
+--strict --scatter ".\Objects\xe2banh.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\xe2banh.map" -o .\Objects\xe2banh.axf
